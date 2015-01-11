@@ -1,0 +1,7 @@
+<h1>Yo, here are your messages</h1>
+
+<ul>
+	<% messages.forEach(function(item, idx) { %>
+		<li><%= item.message %> - <%= item.name %></li>
+	<% }); %>
+</ul>
